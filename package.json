@@ -1,0 +1,23 @@
+{
+  "name": "await-to-mini",
+  "version": "1.0.0",
+  "description": "Much smaller version of await-to. (There's an .npmignore)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grid-rbx/await-to-mini.git"
+  },
+  "keywords": [
+    "await-to-js",
+    "error handling",
+    "async"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grid-rbx/await-to-mini/issues"
+  },
+  "homepage": "https://github.com/grid-rbx/await-to-mini#readme"
+}
