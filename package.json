@@ -1,6 +1,6 @@
 {
   "name": "await-to-mini",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Much smaller version of await-to. (There's an .npmignore)",
   "main": "index.js",
   "scripts": {
