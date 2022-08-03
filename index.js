@@ -4,20 +4,16 @@
  * @return { Promise }
  */
 function to(promise, errorExt) {
-  return (
-    promise.then <
-    [null, T] >
-    ((data) => [null, data]).catch <
-    [U, undefined] >
-    ((err) => {
+  return promise
+    .then((data) => [null, data])
+    .catch((err) => {
       if (errorExt) {
         const parsedError = Object.assign({}, err, errorExt);
         return [parsedError, undefined];
       }
 
       return [err, undefined];
-    })
-  );
+    });
 }
 
 module.exports = { to };
