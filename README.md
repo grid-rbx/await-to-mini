@@ -10,4 +10,4 @@ A much smaller version of await-to-js. Just the module, with everthing else `.np
 
 To learn how to use this package, please visit [the source respository](https://github.com/scopsy/await-to-js).
 
-**Does not support `errorExt`, or the second parameter.`**
+**Does not support `errorExt`, aka the second parameter.**
